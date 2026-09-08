@@ -11,57 +11,8 @@
 <script>
 (async function(){
   try{
-    let html = await fetch('hq-source.html?v=20260908').then(r => { if(!r.ok) throw new Error('HQ source unavailable'); return r.text(); });
-
-    const swap = (oldText, newText) => { html = html.replace(oldText, newText); };
-
-    const archiveBtn = '<button class="tab-btn" data-tab="archive" role="tab" aria-selected="false">Archive</button>';
-    const trashNav = '<a class="tab-btn" href="trash-talk.html" style="text-decoration:none;display:inline-flex;align-items:center;">Trash Talk</a>';
-    html = html.replace(archiveBtn, archiveBtn + '\n      ' + trashNav);
-    const standingsBtn = '<button class="cta" data-goto="standings">Check Standings</button>';
-    const trashCta = '<a class="cta" href="trash-talk.html" style="text-decoration:none;display:inline-flex;align-items:center;">Enter Trash Talk</a>';
-    html = html.replace(standingsBtn, standingsBtn + '\n            ' + trashCta);
-
-    // Week 1 commentary rule: only players actually in the starting lineup
-    // are allowed in the projected leaders or player-specific trash talk.
-    swap('leaders:"<b>B. Nix</b> 18.9 &middot; <b>JSN</b> 15.5 &middot; <b>T. Etienne</b> 13.4"', 'leaders:"<b>B. Nix</b> 17.9 &middot; <b>JSN</b> 16.3 &middot; <b>N. Collins</b> 14.5"');
-    swap('leaders:"<b>D. Maye</b> 18.7 &middot; <b>Nacua</b> 17.4 &middot; <b>Darnold</b> 16.8"', 'leaders:"<b>D. Maye</b> 19.7 &middot; <b>Nacua</b> 17.1 &middot; <b>Egbuka</b> 13.8"');
-    swap('and just squeezed out a little extra juice benching Jayden Reed for a healthier Jakobi Meyers in flex.', 'with JSN and Nico Collins giving the starting lineup real teeth.');
-    swap('Kevin S. is starting Sam Darnold as a fantasy-relevant QB2, which is either genius or a cry for help.', 'Kevin S. is riding Drake Maye and Puka Nacua, while the starting RB trio looks a whole lot less intimidating on paper.');
-    swap('The other Kevin needs a Darnold miracle.', 'The other Kevin needs Maye and Puka to go nuclear.');
-
-    swap('leaders:"<b>Burrow</b> 22.2 &middot; <b>Purdy</b> 18.1 &middot; <b>D. Jones</b> 17.3"', 'leaders:"<b>McCaffrey</b> 19.7 &middot; <b>Burrow</b> 15.4 &middot; <b>Hampton</b> 11.7"');
-    swap('leaders:"<b>Dart</b> 21.2 &middot; <b>Shough</b> 16.2 &middot; <b>C. Brown</b> 14.2"', 'leaders:"<b>Dart</b> 17.8 &middot; <b>C. Brown</b> 14.6 &middot; <b>Nabers</b> 11.3"');
-    swap("The highest combined total on the board, and it's Joe Burrow's <b>22.2</b> &mdash; the single best individual QB projection here &mdash; against a rookie in Jaxson Dart trying to keep pace.", 'The highest combined total on the board comes with actual starters doing the damage: McCaffrey and Burrow lead Mikey, while Dart and Chase Brown carry Zach.');
-    swap('Daniel Jones as a top-three fantasy asset for anyone in September remains undefeated as a plot twist.', "Zach's starting Jadarian Price at basically no projection, which is exactly the kind of flex decision the group chat was invented to prosecute.");
-    swap("Zach's basically betting the week on a guy the Giants couldn't wait to bench for four straight years &mdash; bold strategy, let's see if it pays off.", 'If Dirty Money survives that hole, Dart and Nabers are going to have to do some heavy lifting.');
-
-    swap('leaders:"<b>Prescott</b> 20.2 &middot; <b>Mayfield</b> 19.3 &middot; <b>Achane</b> 16.3"', 'leaders:"<b>Prescott</b> 16.7 &middot; <b>Achane</b> 16.5 &middot; <b>Lamb</b> 13.9"');
-    swap('leaders:"<b>Lawrence</b> 20.0 &middot; <b>Willis</b> 16.9 &middot; <b>Chase</b> 16.4"', 'leaders:"<b>Lawrence</b> 17.1 &middot; <b>J. Williams</b> 15.9 &middot; <b>Chase</b> 13.9"');
-
-    swap('badge:"24.4 &mdash; top proj. of the week"', 'badge:"Lamar vs. Hurts"');
-    swap('leaders:"<b>L. Jackson</b> 22.2 &middot; <b>K. Murray</b> 18.9 &middot; <b>Barkley</b> 16.4"', 'leaders:"<b>L. Jackson</b> 22.8 &middot; <b>Henry</b> 19.0 &middot; <b>Barkley</b> 14.9"');
-    swap('leaders:"<b>Hurts</b> 24.4 &middot; <b>Herbert</b> 22.8 &middot; <b>St. Brown</b> 15.4"', 'leaders:"<b>Hurts</b> 21.4 &middot; <b>St. Brown</b> 13.9 &middot; <b>Jefferson</b> 12.6"');
-    swap('Modern Strife is quietly sitting on <b>the single highest individual projection in the whole league</b> &mdash; Jalen Hurts at 24.4 &mdash; and still projected to lose by 2.7.', 'Modern Strife has Jalen Hurts leading the starting lineup, but Mitch answers with Lamar Jackson plus Derrick Henry and Saquon Barkley behind him.');
-    swap("Kyle's about to out-QB the entire league and still walk away with an L &mdash; that's not bad luck, that's a whole roster built around one guy and a prayer.", 'Kyle still has enough starter firepower with St. Brown and Jefferson to make this ugly if Hurts hits his ceiling.');
-
-    swap('badge:"Goff 19.26 vs. Caleb 19.19"', 'badge:"Caleb vs. Daniels"');
-    swap('leaders:"<b>J. Daniels</b> 18.9 &middot; <b>Jeanty</b> 16.3 &middot; <b>J. Taylor</b> 16.3"', 'leaders:"<b>J. Daniels</b> 18.7 &middot; <b>J. Taylor</b> 16.4 &middot; <b>G. Wilson</b> 15.0"');
-    swap('leaders:"<b>Goff</b> 19.3 &middot; <b>C. Williams</b> 19.2 &middot; <b>Love</b> 17.6"', 'leaders:"<b>C. Williams</b> 20.6 &middot; <b>Bijan</b> 20.3 &middot; <b>K. Williams</b> 14.0"');
-    swap('Jared Goff and Caleb Williams are projected within 0.07 points of each other &mdash; basically a coin flip at the position that\'s supposed to decide this.', 'Caleb Williams and Bijan Robinson give Jack two of the biggest starter projections in this matchup, while Jake answers with Jayden Daniels, Jonathan Taylor, and Garrett Wilson.');
-    swap("Jack's entire gameplan here is hoping Caleb Williams has a career day &mdash; in Week 1, against a Cleveland defense that eats young quarterbacks for breakfast. Bold.", "The dangerous spot for Jack is Ja'Kobi Lane sitting in a starting slot at 2.4. One dud there and the rest of the lineup has to cover the tab.");
-
-    swap('leaders:"<b>J. Allen</b> 21.8 &middot; <b>Stafford</b> 21.6 &middot; <b>J. Cook</b> 13.8"', 'leaders:"<b>J. Allen</b> 27.0 &middot; <b>J. Cook</b> 18.6 &middot; <b>DEN DEF</b> 10.9"');
-    swap('leaders:"<b>Gibbs</b> 20.6 &middot; <b>Mahomes</b> 18.1 &middot; <b>Rice</b> 11.7"', 'leaders:"<b>Mahomes</b> 21.6 &middot; <b>Gibbs</b> 17.6 &middot; <b>Rice</b> 13.2"');
-    swap('Lowest team total of the week belongs to the roster named after Matthew Stafford &mdash; who\'s currently the <b>#2</b> option on his own team, behind Josh Allen. Rough week to be patient zero.', "Calder's starters are top-heavy as hell: Josh Allen and James Cook bring monster projections, then the lineup drops off fast.");
-    swap("Calder named his whole team after a quarterback who can't even lead his own fantasy roster &mdash; that's not irony, Calder, that's a warning label you wrote yourself.", "If Tyler Allgeier's 4.7-point starting projection stays that quiet, Allen and Cook are going to need back surgery from carrying this thing.");
-
-    swap('<div class="leaders">${a.leaders}</div>', '<div class="leaders"><b style="color:var(--accent)">STARTERS:</b> ${a.leaders}</div>');
-    swap('<div class="leaders">${b.leaders}</div>', '<div class="leaders"><b style="color:var(--accent)">STARTERS:</b> ${b.leaders}</div>');
-
-    document.open();
-    document.write(html);
-    document.close();
+    const html=await fetch('hq-source.html?v=20260908-starters2').then(r=>{if(!r.ok)throw new Error('HQ source unavailable');return r.text()});
+    document.open();document.write(html);document.close();
   }catch(err){
     document.body.innerHTML='<div class="loading"><div>HQ failed to load. <a style="color:#FB4F14" href="hq-source.html">Open HQ</a> &nbsp; <a style="color:#FB4F14" href="trash-talk.html">Trash Talk</a></div></div>';
   }
