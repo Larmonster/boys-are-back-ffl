@@ -11,7 +11,7 @@
 <script>
 (async function(){
   try{
-    const html=await fetch('hq-source.html?v=20260908-starters2').then(r=>{if(!r.ok)throw new Error('HQ source unavailable');return r.text()});
+    const html=await fetch('hq-source.html?v='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HQ source unavailable');return r.text()});
     document.open();document.write(html);document.close();
   }catch(err){
     document.body.innerHTML='<div class="loading"><div>HQ failed to load. <a style="color:#FB4F14" href="hq-source.html">Open HQ</a> &nbsp; <a style="color:#FB4F14" href="trash-talk.html">Trash Talk</a></div></div>';
