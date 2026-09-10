@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-08T19:37:40-06:00",
+  "syncedAt": "2026-09-09T19:03:14-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": ["Bo Nix","Travis Etienne","Cam Skattebo","Jaxon Smith-Njigba","Nico Collins","Kyle Pitts","DK Metcalf","Jakobi Meyers","Houston Texans"],
@@ -8,8 +8,8 @@
       "ir": []
     },
     "kevin's Top-Notch Team": {
-      "starters": ["Drake Maye","TreVeyon Henderson","RJ Harvey","Kenny Gainwell","Puka Nacua","Emeka Egbuka","Jameson Williams","Brock Bowers","Baltimore Ravens"],
-      "bench": ["Sam Darnold","Keaton Mitchell","Deebo Samuel","Xavier Worthy","Jalen Coker","Carnell Tate","Terrance Ferguson"],
+      "starters": ["Drake Maye","RJ Harvey","Kenny Gainwell","Puka Nacua","Emeka Egbuka","Jameson Williams","Carnell Tate","Terrance Ferguson","Baltimore Ravens"],
+      "bench": ["Sam Darnold","TreVeyon Henderson","Keaton Mitchell","Deebo Samuel","Xavier Worthy","Jalen Coker","Brock Bowers"],
       "ir": ["Tank Dell"]
     },
     "Mang The Stallion": {
@@ -48,8 +48,8 @@
       "ir": []
     },
     "GRIZZLY ADAMZ": {
-      "starters": ["Patrick Mahomes","Jahmyr Gibbs","Bucky Irving","Rashee Rice","Michael Pittman","Christian Watson","DJ Moore","Trey McBride","New England Patriots"],
-      "bench": ["J.K. Dobbins","Rachaad White","Chris Brooks","Keenan Allen","Adonai Mitchell","David Njoku","Kansas City Chiefs"],
+      "starters": ["Patrick Mahomes","Jahmyr Gibbs","Bucky Irving","J.K. Dobbins","Rashee Rice","Christian Watson","DJ Moore","Trey McBride","New England Patriots"],
+      "bench": ["Rachaad White","Chris Brooks","Michael Pittman","Keenan Allen","Adonai Mitchell","David Njoku","Kansas City Chiefs"],
       "ir": ["Isiah Pacheco"]
     },
     "Mandys Magic": {
@@ -70,6 +70,21 @@
       "added": "Chris Bell",
       "dropped": "Cyrus Allen",
       "starterImpact": false
+    },
+    {
+      "team": "kevin's Top-Notch Team",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": ["Carnell Tate","Terrance Ferguson"],
+      "benched": ["TreVeyon Henderson","Brock Bowers"],
+      "note": "TreVeyon Henderson is currently listed Out."
+    },
+    {
+      "team": "GRIZZLY ADAMZ",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": ["J.K. Dobbins"],
+      "benched": ["Michael Pittman"]
     }
   ]
 }
