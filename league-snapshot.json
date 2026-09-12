@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-09T19:03:14-06:00",
+  "syncedAt": "2026-09-12T00:01:25-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": ["Bo Nix","Travis Etienne","Cam Skattebo","Jaxon Smith-Njigba","Nico Collins","Kyle Pitts","DK Metcalf","Jakobi Meyers","Houston Texans"],
@@ -18,7 +18,7 @@
       "ir": []
     },
     "Dirty Money": {
-      "starters": ["Jaxson Dart","Chase Brown","Kenneth Walker","MarShawn Lloyd","Jadarian Price","Malik Nabers","George Pickens","Chig Okonkwo","Jacksonville Jaguars"],
+      "starters": ["Jaxson Dart","Chase Brown","Kenneth Walker","MarShawn Lloyd","Jadarian Price","Malik Nabers","George Pickens","Michael Mayer","Jacksonville Jaguars"],
       "bench": ["Tyler Shough","Mike Washington","Jonathon Brooks","Rome Odunze","Wan'Dale Robinson","De'Zhaun Stribling","Chris Bell"],
       "ir": []
     },
@@ -85,6 +85,14 @@
       "starterImpact": true,
       "started": ["J.K. Dobbins"],
       "benched": ["Michael Pittman"]
+    },
+    {
+      "team": "Dirty Money",
+      "type": "add_drop",
+      "added": "Michael Mayer",
+      "dropped": "Chig Okonkwo",
+      "starterImpact": true,
+      "note": "Michael Mayer is now Dirty Money's starting tight end."
     }
   ]
 }
