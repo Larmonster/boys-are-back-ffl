@@ -1,10 +1,10 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-12T00:01:25-06:00",
+  "syncedAt": "2026-09-13T12:02:42-06:00",
   "teams": {
     "Touchdown Syndrome": {
-      "starters": ["Bo Nix","Travis Etienne","Cam Skattebo","Jaxon Smith-Njigba","Nico Collins","Kyle Pitts","DK Metcalf","Jakobi Meyers","Houston Texans"],
-      "bench": ["Jayden Reed","T.J. Hockenson","Brian Robinson","Samaje Perine","Braelon Allen","Kenyon Sadiq","Travis Hunter"],
+      "starters": ["Bo Nix","Travis Etienne","Cam Skattebo","Jaxon Smith-Njigba","Nico Collins","Kyle Pitts","DK Metcalf","Jayden Reed","Tennessee Titans"],
+      "bench": ["C.J. Stroud","Jakobi Meyers","T.J. Hockenson","Brian Robinson","Kenyon Sadiq","Travis Hunter","Houston Texans"],
       "ir": []
     },
     "kevin's Top-Notch Team": {
@@ -93,6 +93,22 @@
       "dropped": "Chig Okonkwo",
       "starterImpact": true,
       "note": "Michael Mayer is now Dirty Money's starting tight end."
+    },
+    {
+      "team": "Touchdown Syndrome",
+      "type": "roster",
+      "added": ["C.J. Stroud","Tennessee Titans"],
+      "dropped": ["Samaje Perine","Braelon Allen"],
+      "starterImpact": true,
+      "note": "Added C.J. Stroud and Tennessee D/ST. Samaje Perine and Braelon Allen are no longer rostered."
+    },
+    {
+      "team": "Touchdown Syndrome",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": ["Jayden Reed","Tennessee Titans"],
+      "benched": ["Jakobi Meyers","Houston Texans"],
+      "note": "Week 1 starters now use Jayden Reed at WR/FLEX and Tennessee D/ST against the Jets."
     }
   ]
 }
