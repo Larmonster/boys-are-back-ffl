@@ -1,14 +1,14 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-17T18:57:14-06:00",
+  "syncedAt": "2026-09-18T19:02:16-06:00",
   "teams": {
-    "Touchdown Syndrome": {"starters":["Bo Nix","Travis Etienne","Cam Skattebo","Jaxon Smith-Njigba","Nico Collins","T.J. Hockenson","DK Metcalf","Jayden Reed","Tampa Bay Buccaneers"],"bench":["C.J. Stroud","Xavier Worthy","Kyle Pitts","Jakobi Meyers","Houston Texans","Brian Robinson","Travis Hunter"],"ir":[]},
+    "Touchdown Syndrome": {"starters":["Bo Nix","Travis Etienne","Cam Skattebo","Jaxon Smith-Njigba","Nico Collins","T.J. Hockenson","DK Metcalf","Jayden Reed","Tampa Bay Buccaneers"],"bench":["C.J. Stroud","Xavier Worthy","Kyle Pitts","Houston Texans","Jakobi Meyers","Brian Robinson","Travis Hunter"],"ir":[]},
     "kevin's Top-Notch Team": {"starters":["Drake Maye","TreVeyon Henderson","Kenny Gainwell","Jalen Coker","Puka Nacua","Emeka Egbuka","Jameson Williams","Terrance Ferguson","Baltimore Ravens"],"bench":["Bryce Young","Sam Darnold","RJ Harvey","Keaton Mitchell","Deebo Samuel","Carnell Tate","Brock Bowers"],"ir":["Tank Dell"]},
     "Mang The Stallion": {"starters":["Joe Burrow","Christian McCaffrey","Omarion Hampton","Bhayshul Tuten","Tony Pollard","Tetairoa McMillan","Luther Burden","Tucker Kraft","Los Angeles Chargers"],"bench":["Brock Purdy","Daniel Jones","Chuba Hubbard","Jacory Croskey-Merritt","Jaylin Noel","Dalton Kincaid"],"ir":["Dylan Sampson"]},
-    "Dirty Money": {"starters":["Jaxson Dart","Kenneth Walker","Chase Brown","Jadarian Price","Malik Nabers","George Pickens","Rome Odunze","Pat Freiermuth","Jacksonville Jaguars"],"bench":["Tyler Shough","Jonathon Brooks","MarShawn Lloyd","Mike Washington","Dontayvion Wicks","Caleb Douglas","Pat Bryant"],"ir":[]},
+    "Dirty Money": {"starters":["Jaxson Dart","Kenneth Walker","Chase Brown","Jadarian Price","Malik Nabers","George Pickens","Rome Odunze","Pat Freiermuth","Jacksonville Jaguars"],"bench":["Tyler Shough","Jonathon Brooks","MarShawn Lloyd","Mike Washington","Dontayvion Wicks","Caleb Douglas","Kenyon Sadiq"],"ir":[]},
     "Sues canyon": {"starters":["Jayden Daniels","Ashton Jeanty","Jonathan Taylor","Quinshon Judkins","Garrett Wilson","Drake London","Michael Wilson","Harold Fannin","Cleveland Browns"],"bench":["Aaron Jones","Woody Marks","Tyjae Spears","Justice Hill","Jordan Addison","Tre Tucker","Jalen McMillan"],"ir":[]},
-    "Cornpop's Bad Dudes": {"starters":["Caleb Williams","Bijan Robinson","Kyren Williams","Rhamondre Stevenson","Zay Flowers","Mike Evans","Marvin Harrison","Hunter Henry","Los Angeles Rams"],"bench":["Jared Goff","Jeremiyah Love","Devin Singletary","Denzel Boston","Brian Thomas","Mark Andrews"],"ir":["A.J. Brown","Ja'Kobi Lane"]},
-    "Lord Reverend's Fun-gis": {"starters":["Lamar Jackson","Derrick Henry","Kyle Monangai","Saquon Barkley","Matthew Golden","Davante Adams","Courtland Sutton","Tyler Warren","Pittsburgh Steelers"],"bench":["Braelon Allen","Stefon Diggs","Antonio Williams","Khalil Shakir","Cooper Kupp","Brenton Strange","Evan Engram"],"ir":[]},
+    "Cornpop's Bad Dudes": {"starters":["Caleb Williams","Bijan Robinson","Kyren Williams","Jeremiyah Love","Rhamondre Stevenson","Zay Flowers","Mike Evans","Mark Andrews","Los Angeles Rams"],"bench":["Jared Goff","Devin Singletary","Denzel Boston","Brian Thomas","Marvin Harrison","Hunter Henry"],"ir":["A.J. Brown","Ja'Kobi Lane"]},
+    "Lord Reverend's Fun-gis": {"starters":["Lamar Jackson","Derrick Henry","Saquon Barkley","Kyle Monangai","Matthew Golden","Courtland Sutton","Davante Adams","Tyler Warren","Pittsburgh Steelers"],"bench":["Braelon Allen","Stefon Diggs","Antonio Williams","Khalil Shakir","Cooper Kupp","Brenton Strange","Evan Engram"],"ir":[]},
     "Modern Strife": {"starters":["Jalen Hurts","D'Andre Swift","Jaylen Warren","Justin Jefferson","Amon-Ra St. Brown","Jaylen Waddle","KC Concepcion","Travis Kelce","Detroit Lions"],"bench":["Justin Herbert","Tank Bigsby","Romeo Doubs","Jalen Nailor","Calvin Ridley","Greg Dulcich"],"ir":["Zach Charbonnet"]},
     "Stafford Infection": {"starters":["Josh Allen","James Cook","Tyler Allgeier","Ladd McConkey","Devaughn Vele","Alec Pierce","Terry McLaurin","Dallas Goedert","Philadelphia Eagles"],"bench":["Matthew Stafford","Jonah Coleman","Josh Jacobs","Rashid Shaheed","Rashod Bateman","George Kittle","Denver Broncos"],"ir":[]},
     "GRIZZLY ADAMZ": {"starters":["Patrick Mahomes","Jahmyr Gibbs","Bucky Irving","J.K. Dobbins","Christian Watson","DJ Moore","Rashee Rice","Trey McBride","New England Patriots"],"bench":["Rachaad White","Chris Brooks","Michael Pittman","Keenan Allen","Adonai Mitchell","David Njoku","Kansas City Chiefs"],"ir":["Isiah Pacheco"]},
@@ -16,15 +16,7 @@
     "Team Welch": {"starters":["Trevor Lawrence","Javonte Williams","Breece Hall","Chris Olave","Parker Washington","Ja'Marr Chase","Tee Higgins","Sam LaPorta","San Francisco 49ers"],"bench":["Malik Willis","Blake Corum","Kaelon Black","Chris Rodriguez","Josh Downs","Quentin Johnston","Juwan Johnson"],"ir":["Jordyn Tyson"]}
   },
   "changes": [
-    {"team":"Touchdown Syndrome","type":"roster","starterImpact":false,"added":["Xavier Worthy"],"dropped":["Kenyon Sadiq"],"note":"Bench ownership changed since prior snapshot."},
-    {"team":"Mang The Stallion","type":"ir","starterImpact":false,"movedToIR":["Dylan Sampson"],"note":"Dylan Sampson moved from bench to IR."},
-    {"team":"Dirty Money","type":"roster","starterImpact":false,"added":["Pat Bryant"],"dropped":["Wan'Dale Robinson"],"note":"Bench ownership changed since prior snapshot."},
-    {"team":"Cornpop's Bad Dudes","type":"roster","starterImpact":false,"added":["Devin Singletary"],"note":"Devin Singletary added after an IR slot opened."},
-    {"team":"Cornpop's Bad Dudes","type":"ir","starterImpact":false,"movedToIR":["Ja'Kobi Lane"],"note":"Ja'Kobi Lane moved from bench to IR."},
-    {"team":"Lord Reverend's Fun-gis","type":"roster","starterImpact":false,"added":["Braelon Allen","Antonio Williams","Evan Engram"],"dropped":["Kyler Murray","Jerry Jeudy","Jake Ferguson"],"note":"Three bench ownership changes since prior snapshot."},
-    {"team":"Stafford Infection","type":"lineup","starterImpact":true,"started":["Devaughn Vele","Philadelphia Eagles"],"benched":["George Kittle","Denver Broncos"],"note":"Current Week 2 lineup changed at FLEX and defense."},
-    {"team":"Mandys Magic","type":"roster","starterImpact":false,"added":["Alvin Kamara"],"note":"Alvin Kamara added after Jordan Mason moved to IR."},
-    {"team":"Mandys Magic","type":"ir","starterImpact":false,"movedToIR":["Jordan Mason"],"note":"Jordan Mason moved from bench to IR."},
-    {"team":"Mandys Magic","type":"lineup","starterImpact":true,"started":["Isaiah Likely"],"benched":["Rico Dowdle"],"note":"Current Week 2 FLEX changed from Rico Dowdle to Isaiah Likely."}
+    {"team":"Dirty Money","type":"roster","starterImpact":false,"added":["Kenyon Sadiq"],"dropped":["Pat Bryant"],"note":"Bench ownership changed since the prior snapshot."},
+    {"team":"Cornpop's Bad Dudes","type":"lineup","starterImpact":true,"started":["Jeremiyah Love","Mark Andrews"],"benched":["Marvin Harrison","Hunter Henry"],"note":"Current Week 2 lineup changed at FLEX and tight end."}
   ]
 }
