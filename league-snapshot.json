@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-23T18:57:20-06:00",
+  "syncedAt": "2026-09-24T18:58:36-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -9,18 +9,18 @@
         "Cam Skattebo",
         "Jaxon Smith-Njigba",
         "Xavier Worthy",
-        "T.J. Hockenson",
-        "Nico Collins",
         "Kyle Pitts",
+        "T.J. Hockenson",
+        "Xavier Hutchinson",
         "Carolina Panthers"
       ],
       "bench": [
         "Bo Nix",
+        "Nico Collins",
         "DK Metcalf",
         "Houston Texans",
         "Jakobi Meyers",
         "Brian Robinson",
-        "Travis Hunter",
         "Jayden Reed"
       ],
       "ir": []
@@ -29,17 +29,17 @@
       "starters": [
         "Bryce Young",
         "TreVeyon Henderson",
-        "Kenny Gainwell",
+        "RJ Harvey",
         "Jalen Coker",
-        "Emeka Egbuka",
         "Deebo Samuel",
+        "Emeka Egbuka",
         "Jameson Williams",
         "Brock Bowers",
         "Baltimore Ravens"
       ],
       "bench": [
         "Drake Maye",
-        "RJ Harvey",
+        "Kenny Gainwell",
         "Keaton Mitchell",
         "Puka Nacua",
         "Carnell Tate",
@@ -57,8 +57,8 @@
         "Omarion Hampton",
         "Bhayshul Tuten",
         "Tony Pollard",
-        "Luther Burden",
         "Tetairoa McMillan",
+        "Luther Burden",
         "Tucker Kraft",
         "Los Angeles Chargers"
       ],
@@ -79,20 +79,20 @@
         "Tyler Shough",
         "Kenneth Walker",
         "Chase Brown",
-        "MarShawn Lloyd",
+        "Rome Odunze",
         "Malik Nabers",
         "George Pickens",
-        "Rome Odunze",
+        "Dontayvion Wicks",
         "Dalton Schultz",
-        "Cincinnati Bengals"
+        "San Francisco 49ers"
       ],
       "bench": [
         "Jordan Love",
         "Kyler Murray",
+        "MarShawn Lloyd",
         "Jadarian Price",
         "Mike Washington",
         "Kaleb Johnson",
-        "Dontayvion Wicks",
         "Tyreek Hill",
         "Oronde Gadsden"
       ],
@@ -103,8 +103,8 @@
         "Jayden Daniels",
         "Jonathan Taylor",
         "Ashton Jeanty",
-        "Quinshon Judkins",
         "Aaron Jones",
+        "Quinshon Judkins",
         "Garrett Wilson",
         "Drake London",
         "Harold Fannin",
@@ -152,8 +152,8 @@
         "Derrick Henry",
         "Saquon Barkley",
         "Davante Adams",
+        "Stefon Diggs",
         "Matthew Golden",
-        "Khalil Shakir",
         "Courtland Sutton",
         "Tyler Warren",
         "Pittsburgh Steelers"
@@ -162,8 +162,8 @@
         "Kyle Monangai",
         "Braelon Allen",
         "George Holani",
-        "Stefon Diggs",
         "Antonio Williams",
+        "Khalil Shakir",
         "Cooper Kupp",
         "Evan Engram"
       ],
@@ -255,9 +255,9 @@
       ],
       "bench": [
         "Baker Mayfield",
-        "Alvin Kamara",
         "Emmett Johnson",
         "Rico Dowdle",
+        "Alvin Kamara",
         "Emanuel Wilson",
         "Malik Washington",
         "Makai Lemon"
@@ -298,151 +298,74 @@
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "C.J. Stroud",
-        "Nico Collins",
-        "Kyle Pitts"
+        "Xavier Hutchinson"
       ],
       "benched": [
-        "Bo Nix",
-        "DK Metcalf",
-        "Jayden Reed"
+        "Nico Collins"
       ],
-      "note": "Week 3 starters changed at quarterback and both flex spots."
+      "note": "Week 3 flex lineup changed."
     },
     {
       "team": "Touchdown Syndrome",
       "type": "add_drop",
       "starterImpact": true,
       "added": [
-        "Carolina Panthers"
+        "Xavier Hutchinson"
       ],
       "dropped": [
-        "Tampa Bay Buccaneers"
+        "Travis Hunter"
       ],
-      "note": "Defense swap also changed the starting lineup."
+      "note": "Roster ownership changed and the new addition entered the starting lineup."
     },
     {
       "team": "kevin's Top-Notch Team",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Bryce Young",
-        "Brock Bowers"
+        "RJ Harvey"
       ],
       "benched": [
-        "Drake Maye",
-        "Terrance Ferguson"
+        "Kenny Gainwell"
       ],
-      "note": "Week 3 starters changed at quarterback and tight end."
-    },
-    {
-      "team": "kevin's Top-Notch Team",
-      "type": "add_drop",
-      "starterImpact": false,
-      "added": [
-        "Keon Coleman"
-      ],
-      "dropped": [
-        "Sam Darnold"
-      ],
-      "note": "Bench ownership changed."
+      "note": "Week 3 running back lineup changed."
     },
     {
       "team": "Dirty Money",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Dalton Schultz",
-        "Cincinnati Bengals"
-      ],
-      "benched": [
-        "Pat Freiermuth",
-        "Jacksonville Jaguars"
-      ],
-      "note": "Week 3 starters changed at tight end and defense through roster moves."
-    },
-    {
-      "team": "Dirty Money",
-      "type": "add_drop",
-      "starterImpact": true,
-      "added": [
-        "Jordan Love",
-        "Kyler Murray",
-        "Kaleb Johnson",
-        "Tyreek Hill",
-        "Oronde Gadsden",
-        "Dalton Schultz",
-        "Cincinnati Bengals"
-      ],
-      "dropped": [
-        "Jaxson Dart",
-        "Jonathon Brooks",
-        "Caleb Douglas",
-        "Kenyon Sadiq",
-        "Pat Freiermuth",
-        "Jacksonville Jaguars"
-      ],
-      "note": "Multiple waiver and free agent moves changed roster ownership."
-    },
-    {
-      "team": "Stafford Infection",
-      "type": "add_drop",
-      "starterImpact": false,
-      "added": [
-        "Jonah Coleman"
-      ],
-      "dropped": [
-        "Mike Gesicki"
-      ],
-      "note": "Bench ownership changed."
-    },
-    {
-      "team": "GRIZZLY ADAMZ",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Adonai Mitchell"
-      ],
-      "benched": [
-        "J.K. Dobbins"
-      ],
-      "note": "Week 3 flex lineup changed."
-    },
-    {
-      "team": "GRIZZLY ADAMZ",
-      "type": "add_drop",
-      "starterImpact": false,
-      "added": [
-        "Jake Ferguson"
-      ],
-      "dropped": [
-        "David Njoku"
-      ],
-      "note": "Bench tight end ownership changed."
-    },
-    {
-      "team": "Mandys Magic",
-      "type": "add_drop",
-      "starterImpact": false,
-      "added": [
-        "Emanuel Wilson"
-      ],
-      "dropped": [
-        "Ray Davis"
-      ],
-      "note": "Bench running back ownership changed."
-    },
-    {
-      "team": "Team Welch",
-      "type": "add_drop",
-      "starterImpact": true,
-      "added": [
-        "Minnesota Vikings"
-      ],
-      "dropped": [
+        "Dontayvion Wicks",
         "San Francisco 49ers"
       ],
-      "note": "Defense swap also changed the starting lineup."
+      "benched": [
+        "MarShawn Lloyd",
+        "Cincinnati Bengals"
+      ],
+      "note": "Week 3 flex and defense lineup changed."
+    },
+    {
+      "team": "Dirty Money",
+      "type": "add_drop",
+      "starterImpact": true,
+      "added": [
+        "San Francisco 49ers"
+      ],
+      "dropped": [
+        "Cincinnati Bengals"
+      ],
+      "note": "Defense ownership changed and the new defense entered the starting lineup."
+    },
+    {
+      "team": "Lord Reverend's Fun-gis",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Stefon Diggs"
+      ],
+      "benched": [
+        "Khalil Shakir"
+      ],
+      "note": "Week 3 flex lineup changed."
     }
   ]
 }
