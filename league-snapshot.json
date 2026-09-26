@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-24T18:58:36-06:00",
+  "syncedAt": "2026-09-25T19:02:24-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -16,11 +16,11 @@
       ],
       "bench": [
         "Bo Nix",
-        "Nico Collins",
         "DK Metcalf",
         "Houston Texans",
         "Jakobi Meyers",
         "Brian Robinson",
+        "Nico Collins",
         "Jayden Reed"
       ],
       "ir": []
@@ -31,16 +31,16 @@
         "TreVeyon Henderson",
         "RJ Harvey",
         "Jalen Coker",
-        "Deebo Samuel",
         "Emeka Egbuka",
+        "Deebo Samuel",
         "Jameson Williams",
         "Brock Bowers",
         "Baltimore Ravens"
       ],
       "bench": [
         "Drake Maye",
-        "Kenny Gainwell",
         "Keaton Mitchell",
+        "Kenny Gainwell",
         "Puka Nacua",
         "Carnell Tate",
         "Keon Coleman",
@@ -79,10 +79,10 @@
         "Tyler Shough",
         "Kenneth Walker",
         "Chase Brown",
-        "Rome Odunze",
-        "Malik Nabers",
         "George Pickens",
+        "Malik Nabers",
         "Dontayvion Wicks",
+        "Rome Odunze",
         "Dalton Schultz",
         "San Francisco 49ers"
       ],
@@ -91,8 +91,8 @@
         "Kyler Murray",
         "MarShawn Lloyd",
         "Jadarian Price",
-        "Mike Washington",
         "Kaleb Johnson",
+        "Mike Washington",
         "Tyreek Hill",
         "Oronde Gadsden"
       ],
@@ -123,7 +123,7 @@
     },
     "Cornpop's Bad Dudes": {
       "starters": [
-        "Caleb Williams",
+        "Jared Goff",
         "Bijan Robinson",
         "Kyren Williams",
         "Jeremiyah Love",
@@ -134,16 +134,16 @@
         "Los Angeles Rams"
       ],
       "bench": [
-        "Jared Goff",
+        "Caleb Williams",
         "Devin Singletary",
         "Zay Flowers",
         "Denzel Boston",
+        "Wan'Dale Robinson",
         "Marvin Harrison",
         "Hunter Henry"
       ],
       "ir": [
-        "A.J. Brown",
-        "Ja'Kobi Lane"
+        "A.J. Brown"
       ]
     },
     "Lord Reverend's Fun-gis": {
@@ -185,8 +185,8 @@
         "Justin Herbert",
         "Tank Bigsby",
         "Romeo Doubs",
-        "Jalen Nailor",
         "Calvin Ridley",
+        "Jalen Nailor",
         "Greg Dulcich"
       ],
       "ir": [
@@ -201,7 +201,7 @@
         "Ladd McConkey",
         "Rashod Bateman",
         "Devaughn Vele",
-        "Terry McLaurin",
+        "Rashid Shaheed",
         "George Kittle",
         "Philadelphia Eagles"
       ],
@@ -209,8 +209,8 @@
         "Matthew Stafford",
         "Jonah Coleman",
         "Josh Jacobs",
+        "Terry McLaurin",
         "Alec Pierce",
-        "Rashid Shaheed",
         "Dallas Goedert",
         "Denver Broncos"
       ],
@@ -294,78 +294,40 @@
   },
   "changes": [
     {
-      "team": "Touchdown Syndrome",
+      "team": "Cornpop's Bad Dudes",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Xavier Hutchinson"
+        "Jared Goff"
       ],
       "benched": [
-        "Nico Collins"
+        "Caleb Williams"
       ],
-      "note": "Week 3 flex lineup changed."
+      "note": "Week 3 starting quarterback changed."
     },
     {
-      "team": "Touchdown Syndrome",
+      "team": "Cornpop's Bad Dudes",
       "type": "add_drop",
-      "starterImpact": true,
+      "starterImpact": false,
       "added": [
-        "Xavier Hutchinson"
+        "Wan'Dale Robinson"
       ],
       "dropped": [
-        "Travis Hunter"
+        "Ja'Kobi Lane"
       ],
-      "note": "Roster ownership changed and the new addition entered the starting lineup."
+      "note": "Wan'Dale Robinson was added and Ja'Kobi Lane was released from the IR roster spot."
     },
     {
-      "team": "kevin's Top-Notch Team",
+      "team": "Stafford Infection",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "RJ Harvey"
+        "Rashid Shaheed"
       ],
       "benched": [
-        "Kenny Gainwell"
+        "Terry McLaurin"
       ],
-      "note": "Week 3 running back lineup changed."
-    },
-    {
-      "team": "Dirty Money",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Dontayvion Wicks",
-        "San Francisco 49ers"
-      ],
-      "benched": [
-        "MarShawn Lloyd",
-        "Cincinnati Bengals"
-      ],
-      "note": "Week 3 flex and defense lineup changed."
-    },
-    {
-      "team": "Dirty Money",
-      "type": "add_drop",
-      "starterImpact": true,
-      "added": [
-        "San Francisco 49ers"
-      ],
-      "dropped": [
-        "Cincinnati Bengals"
-      ],
-      "note": "Defense ownership changed and the new defense entered the starting lineup."
-    },
-    {
-      "team": "Lord Reverend's Fun-gis",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Stefon Diggs"
-      ],
-      "benched": [
-        "Khalil Shakir"
-      ],
-      "note": "Week 3 flex lineup changed."
+      "note": "Week 3 wide receiver lineup changed."
     }
   ]
 }
