@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-25T19:02:24-06:00",
+  "syncedAt": "2026-09-26T18:59:01-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -55,12 +55,12 @@
         "Joe Burrow",
         "Christian McCaffrey",
         "Omarion Hampton",
-        "Bhayshul Tuten",
         "Tony Pollard",
+        "Bhayshul Tuten",
         "Tetairoa McMillan",
         "Luther Burden",
         "Tucker Kraft",
-        "Los Angeles Chargers"
+        "Cincinnati Bengals"
       ],
       "bench": [
         "Brock Purdy",
@@ -79,10 +79,10 @@
         "Tyler Shough",
         "Kenneth Walker",
         "Chase Brown",
+        "Jadarian Price",
         "George Pickens",
         "Malik Nabers",
         "Dontayvion Wicks",
-        "Rome Odunze",
         "Dalton Schultz",
         "San Francisco 49ers"
       ],
@@ -90,9 +90,9 @@
         "Jordan Love",
         "Kyler Murray",
         "MarShawn Lloyd",
-        "Jadarian Price",
         "Kaleb Johnson",
         "Mike Washington",
+        "Rome Odunze",
         "Tyreek Hill",
         "Oronde Gadsden"
       ],
@@ -185,8 +185,8 @@
         "Justin Herbert",
         "Tank Bigsby",
         "Romeo Doubs",
-        "Calvin Ridley",
         "Jalen Nailor",
+        "Calvin Ridley",
         "Greg Dulcich"
       ],
       "ir": [
@@ -221,18 +221,18 @@
         "Patrick Mahomes",
         "Jahmyr Gibbs",
         "Bucky Irving",
+        "J.K. Dobbins",
         "Christian Watson",
-        "DJ Moore",
         "Rashee Rice",
-        "Adonai Mitchell",
+        "DJ Moore",
         "Trey McBride",
         "New England Patriots"
       ],
       "bench": [
         "Rachaad White",
-        "J.K. Dobbins",
         "Chris Brooks",
         "Michael Pittman",
+        "Adonai Mitchell",
         "Keenan Allen",
         "Jake Ferguson",
         "Kansas City Chiefs"
@@ -256,9 +256,9 @@
       "bench": [
         "Baker Mayfield",
         "Emmett Johnson",
-        "Rico Dowdle",
         "Alvin Kamara",
         "Emanuel Wilson",
+        "Rico Dowdle",
         "Malik Washington",
         "Makai Lemon"
       ],
@@ -294,40 +294,40 @@
   },
   "changes": [
     {
-      "team": "Cornpop's Bad Dudes",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Jared Goff"
-      ],
-      "benched": [
-        "Caleb Williams"
-      ],
-      "note": "Week 3 starting quarterback changed."
-    },
-    {
-      "team": "Cornpop's Bad Dudes",
+      "team": "Mang The Stallion",
       "type": "add_drop",
-      "starterImpact": false,
+      "starterImpact": true,
       "added": [
-        "Wan'Dale Robinson"
+        "Cincinnati Bengals"
       ],
       "dropped": [
-        "Ja'Kobi Lane"
+        "Los Angeles Chargers"
       ],
-      "note": "Wan'Dale Robinson was added and Ja'Kobi Lane was released from the IR roster spot."
+      "note": "Defense ownership changed and the new defense entered the starting lineup."
     },
     {
-      "team": "Stafford Infection",
+      "team": "Dirty Money",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Rashid Shaheed"
+        "Jadarian Price"
       ],
       "benched": [
-        "Terry McLaurin"
+        "Rome Odunze"
       ],
-      "note": "Week 3 wide receiver lineup changed."
+      "note": "Week 3 flex lineup changed."
+    },
+    {
+      "team": "GRIZZLY ADAMZ",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "J.K. Dobbins"
+      ],
+      "benched": [
+        "Adonai Mitchell"
+      ],
+      "note": "Week 3 flex lineup changed."
     }
   ]
 }
