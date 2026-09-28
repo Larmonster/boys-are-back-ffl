@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-26T18:59:01-06:00",
+  "syncedAt": "2026-09-27T18:58:28-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -11,7 +11,7 @@
         "Xavier Worthy",
         "Kyle Pitts",
         "T.J. Hockenson",
-        "Xavier Hutchinson",
+        "Pat Freiermuth",
         "Carolina Panthers"
       ],
       "bench": [
@@ -39,8 +39,8 @@
       ],
       "bench": [
         "Drake Maye",
-        "Keaton Mitchell",
         "Kenny Gainwell",
+        "Keaton Mitchell",
         "Puka Nacua",
         "Carnell Tate",
         "Keon Coleman",
@@ -55,8 +55,8 @@
         "Joe Burrow",
         "Christian McCaffrey",
         "Omarion Hampton",
-        "Tony Pollard",
         "Bhayshul Tuten",
+        "Tony Pollard",
         "Tetairoa McMillan",
         "Luther Burden",
         "Tucker Kraft",
@@ -111,8 +111,8 @@
         "Cleveland Browns"
       ],
       "bench": [
-        "Woody Marks",
         "Tyjae Spears",
+        "Woody Marks",
         "Justice Hill",
         "Tre Tucker",
         "Michael Wilson",
@@ -150,18 +150,18 @@
       "starters": [
         "Lamar Jackson",
         "Derrick Henry",
+        "Kyle Monangai",
         "Saquon Barkley",
         "Davante Adams",
-        "Stefon Diggs",
         "Matthew Golden",
         "Courtland Sutton",
         "Tyler Warren",
         "Pittsburgh Steelers"
       ],
       "bench": [
-        "Kyle Monangai",
         "Braelon Allen",
         "George Holani",
+        "Stefon Diggs",
         "Antonio Williams",
         "Khalil Shakir",
         "Cooper Kupp",
@@ -207,14 +207,16 @@
       ],
       "bench": [
         "Matthew Stafford",
-        "Jonah Coleman",
         "Josh Jacobs",
         "Terry McLaurin",
-        "Alec Pierce",
+        "Kayshon Boutte",
         "Dallas Goedert",
         "Denver Broncos"
       ],
-      "ir": []
+      "ir": [
+        "Jonah Coleman",
+        "Alec Pierce"
+      ]
     },
     "GRIZZLY ADAMZ": {
       "starters": [
@@ -223,8 +225,8 @@
         "Bucky Irving",
         "J.K. Dobbins",
         "Christian Watson",
-        "Rashee Rice",
         "DJ Moore",
+        "Rashee Rice",
         "Trey McBride",
         "New England Patriots"
       ],
@@ -246,21 +248,21 @@
         "Dak Prescott",
         "David Montgomery",
         "De'Von Achane",
+        "Emmett Johnson",
         "CeeDee Lamb",
         "DeVonta Smith",
         "Chris Godwin",
         "Isaiah Likely",
-        "Colston Loveland",
         "Seattle Seahawks"
       ],
       "bench": [
         "Baker Mayfield",
-        "Emmett Johnson",
         "Alvin Kamara",
         "Emanuel Wilson",
         "Rico Dowdle",
         "Malik Washington",
-        "Makai Lemon"
+        "Makai Lemon",
+        "Colston Loveland"
       ],
       "ir": [
         "Jordan Mason"
@@ -294,38 +296,58 @@
   },
   "changes": [
     {
-      "team": "Mang The Stallion",
+      "team": "Touchdown Syndrome",
       "type": "add_drop",
       "starterImpact": true,
       "added": [
-        "Cincinnati Bengals"
+        "Pat Freiermuth"
       ],
       "dropped": [
-        "Los Angeles Chargers"
+        "Xavier Hutchinson"
       ],
-      "note": "Defense ownership changed and the new defense entered the starting lineup."
+      "note": "Pat Freiermuth was added and entered the starting lineup in place of Xavier Hutchinson."
     },
     {
-      "team": "Dirty Money",
+      "team": "Lord Reverend's Fun-gis",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Jadarian Price"
+        "Kyle Monangai"
       ],
       "benched": [
-        "Rome Odunze"
+        "Stefon Diggs"
       ],
       "note": "Week 3 flex lineup changed."
     },
     {
-      "team": "GRIZZLY ADAMZ",
+      "team": "Stafford Infection",
+      "type": "ir",
+      "starterImpact": false,
+      "movedToIr": [
+        "Jonah Coleman",
+        "Alec Pierce"
+      ],
+      "note": "Two bench players moved to IR."
+    },
+    {
+      "team": "Stafford Infection",
+      "type": "add_drop",
+      "starterImpact": false,
+      "added": [
+        "Kayshon Boutte"
+      ],
+      "dropped": [],
+      "note": "Kayshon Boutte was added to the bench."
+    },
+    {
+      "team": "Mandys Magic",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "J.K. Dobbins"
+        "Emmett Johnson"
       ],
       "benched": [
-        "Adonai Mitchell"
+        "Colston Loveland"
       ],
       "note": "Week 3 flex lineup changed."
     }
