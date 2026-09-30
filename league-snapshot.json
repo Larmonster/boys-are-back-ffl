@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-27T18:58:28-06:00",
+  "syncedAt": "2026-09-29T19:00:34-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -16,11 +16,11 @@
       ],
       "bench": [
         "Bo Nix",
-        "DK Metcalf",
-        "Houston Texans",
-        "Jakobi Meyers",
-        "Brian Robinson",
         "Nico Collins",
+        "DK Metcalf",
+        "Jakobi Meyers",
+        "Houston Texans",
+        "Brian Robinson",
         "Jayden Reed"
       ],
       "ir": []
@@ -31,16 +31,16 @@
         "TreVeyon Henderson",
         "RJ Harvey",
         "Jalen Coker",
-        "Emeka Egbuka",
         "Deebo Samuel",
+        "Emeka Egbuka",
         "Jameson Williams",
         "Brock Bowers",
         "Baltimore Ravens"
       ],
       "bench": [
         "Drake Maye",
-        "Kenny Gainwell",
         "Keaton Mitchell",
+        "Kenny Gainwell",
         "Puka Nacua",
         "Carnell Tate",
         "Keon Coleman",
@@ -54,8 +54,8 @@
       "starters": [
         "Joe Burrow",
         "Christian McCaffrey",
-        "Omarion Hampton",
         "Bhayshul Tuten",
+        "Omarion Hampton",
         "Tony Pollard",
         "Tetairoa McMillan",
         "Luther Burden",
@@ -80,21 +80,17 @@
         "Kenneth Walker",
         "Chase Brown",
         "Jadarian Price",
-        "George Pickens",
         "Malik Nabers",
+        "George Pickens",
         "Dontayvion Wicks",
         "Dalton Schultz",
         "San Francisco 49ers"
       ],
       "bench": [
         "Jordan Love",
-        "Kyler Murray",
-        "MarShawn Lloyd",
-        "Kaleb Johnson",
         "Mike Washington",
         "Rome Odunze",
-        "Tyreek Hill",
-        "Oronde Gadsden"
+        "Tyreek Hill"
       ],
       "ir": []
     },
@@ -111,11 +107,11 @@
         "Cleveland Browns"
       ],
       "bench": [
-        "Tyjae Spears",
         "Woody Marks",
+        "Tyjae Spears",
         "Justice Hill",
-        "Tre Tucker",
         "Michael Wilson",
+        "Tre Tucker",
         "Jordan Addison",
         "Jalen McMillan"
       ],
@@ -150,8 +146,8 @@
       "starters": [
         "Lamar Jackson",
         "Derrick Henry",
-        "Kyle Monangai",
         "Saquon Barkley",
+        "Kyle Monangai",
         "Davante Adams",
         "Matthew Golden",
         "Courtland Sutton",
@@ -185,8 +181,8 @@
         "Justin Herbert",
         "Tank Bigsby",
         "Romeo Doubs",
-        "Jalen Nailor",
         "Calvin Ridley",
+        "Jalen Nailor",
         "Greg Dulcich"
       ],
       "ir": [
@@ -199,7 +195,7 @@
         "James Cook",
         "Tyler Allgeier",
         "Ladd McConkey",
-        "Rashod Bateman",
+        "Terry McLaurin",
         "Devaughn Vele",
         "Rashid Shaheed",
         "George Kittle",
@@ -208,7 +204,7 @@
       "bench": [
         "Matthew Stafford",
         "Josh Jacobs",
-        "Terry McLaurin",
+        "Rashod Bateman",
         "Kayshon Boutte",
         "Dallas Goedert",
         "Denver Broncos"
@@ -233,9 +229,9 @@
       "bench": [
         "Rachaad White",
         "Chris Brooks",
-        "Michael Pittman",
-        "Adonai Mitchell",
         "Keenan Allen",
+        "Adonai Mitchell",
+        "Michael Pittman",
         "Jake Ferguson",
         "Kansas City Chiefs"
       ],
@@ -258,8 +254,8 @@
       "bench": [
         "Baker Mayfield",
         "Alvin Kamara",
-        "Emanuel Wilson",
         "Rico Dowdle",
+        "Emanuel Wilson",
         "Malik Washington",
         "Makai Lemon",
         "Colston Loveland"
@@ -271,8 +267,8 @@
     "Team Welch": {
       "starters": [
         "Trevor Lawrence",
-        "Breece Hall",
         "Javonte Williams",
+        "Breece Hall",
         "Chris Olave",
         "Ja'Marr Chase",
         "Parker Washington",
@@ -296,60 +292,29 @@
   },
   "changes": [
     {
-      "team": "Touchdown Syndrome",
+      "team": "Dirty Money",
       "type": "add_drop",
-      "starterImpact": true,
-      "added": [
-        "Pat Freiermuth"
-      ],
+      "starterImpact": false,
+      "added": [],
       "dropped": [
-        "Xavier Hutchinson"
+        "Kyler Murray",
+        "MarShawn Lloyd",
+        "Kaleb Johnson",
+        "Oronde Gadsden"
       ],
-      "note": "Pat Freiermuth was added and entered the starting lineup in place of Xavier Hutchinson."
-    },
-    {
-      "team": "Lord Reverend's Fun-gis",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Kyle Monangai"
-      ],
-      "benched": [
-        "Stefon Diggs"
-      ],
-      "note": "Week 3 flex lineup changed."
+      "note": "Four bench players were released."
     },
     {
       "team": "Stafford Infection",
-      "type": "ir",
-      "starterImpact": false,
-      "movedToIr": [
-        "Jonah Coleman",
-        "Alec Pierce"
-      ],
-      "note": "Two bench players moved to IR."
-    },
-    {
-      "team": "Stafford Infection",
-      "type": "add_drop",
-      "starterImpact": false,
-      "added": [
-        "Kayshon Boutte"
-      ],
-      "dropped": [],
-      "note": "Kayshon Boutte was added to the bench."
-    },
-    {
-      "team": "Mandys Magic",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Emmett Johnson"
+        "Terry McLaurin"
       ],
       "benched": [
-        "Colston Loveland"
+        "Rashod Bateman"
       ],
-      "note": "Week 3 flex lineup changed."
+      "note": "Wide receiver lineup changed after Week 3."
     }
   ]
 }
