@@ -1,27 +1,27 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-09-30T19:04:55-06:00",
+  "syncedAt": "2026-10-01T18:55:26-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
         "C.J. Stroud",
-        "Travis Etienne",
         "Cam Skattebo",
+        "Isaiah Davis",
         "Jaxon Smith-Njigba",
-        "Xavier Worthy",
-        "Kyle Pitts",
-        "T.J. Hockenson",
+        "DK Metcalf",
         "Pat Freiermuth",
-        "Carolina Panthers"
+        "Nico Collins",
+        "Jakobi Meyers",
+        "Houston Texans"
       ],
       "bench": [
         "Bo Nix",
-        "Nico Collins",
-        "DK Metcalf",
-        "Jakobi Meyers",
-        "Houston Texans",
+        "Xavier Worthy",
+        "Kyle Pitts",
+        "T.J. Hockenson",
+        "Carolina Panthers",
         "Brian Robinson",
-        "Jayden Reed"
+        "Travis Etienne"
       ],
       "ir": []
     },
@@ -30,7 +30,7 @@
         "Bryce Young",
         "TreVeyon Henderson",
         "RJ Harvey",
-        "Jalen Coker",
+        "Puka Nacua",
         "Deebo Samuel",
         "Emeka Egbuka",
         "Jameson Williams",
@@ -41,7 +41,7 @@
         "Drake Maye",
         "Keaton Mitchell",
         "Kenny Gainwell",
-        "Puka Nacua",
+        "Jalen Coker",
         "Carnell Tate",
         "Keon Coleman",
         "Terrance Ferguson"
@@ -57,8 +57,8 @@
         "Bhayshul Tuten",
         "Omarion Hampton",
         "Tony Pollard",
-        "Tetairoa McMillan",
         "Luther Burden",
+        "Tetairoa McMillan",
         "Tucker Kraft",
         "Cincinnati Bengals"
       ],
@@ -79,9 +79,9 @@
         "Tyler Shough",
         "Kenneth Walker",
         "Chase Brown",
-        "Jadarian Price",
         "George Pickens",
         "Malik Nabers",
+        "Rome Odunze",
         "Kenyon Sadiq",
         "Darren Waller",
         "Chicago Bears"
@@ -89,11 +89,11 @@
       "bench": [
         "Jordan Love",
         "Kendre Miller",
+        "Jadarian Price",
         "Mike Washington",
         "Dontayvion Wicks",
-        "Rome Odunze",
-        "Tyreek Hill",
-        "Dalton Schultz"
+        "Quentin Johnston",
+        "Tyreek Hill"
       ],
       "ir": [
         "Ja'Kobi Lane"
@@ -106,8 +106,8 @@
         "Ashton Jeanty",
         "Aaron Jones",
         "Quinshon Judkins",
-        "Garrett Wilson",
         "Drake London",
+        "Garrett Wilson",
         "Harold Fannin",
         "Cleveland Browns"
       ],
@@ -117,10 +117,11 @@
         "Justice Hill",
         "Michael Wilson",
         "Jordan Addison",
-        "Tre Tucker",
-        "Jalen McMillan"
+        "Tre Tucker"
       ],
-      "ir": []
+      "ir": [
+        "Jalen McMillan"
+      ]
     },
     "Cornpop's Bad Dudes": {
       "starters": [
@@ -155,18 +156,18 @@
         "Kyle Monangai",
         "Davante Adams",
         "Matthew Golden",
-        "Courtland Sutton",
+        "Stefon Diggs",
         "Tyler Warren",
         "Pittsburgh Steelers"
       ],
       "bench": [
         "Braelon Allen",
         "George Holani",
-        "Stefon Diggs",
-        "Antonio Williams",
-        "Cooper Kupp",
+        "Jaylen Wright",
+        "Courtland Sutton",
         "Khalil Shakir",
-        "Evan Engram"
+        "Cooper Kupp",
+        "Buffalo Bills"
       ],
       "ir": []
     },
@@ -224,21 +225,21 @@
         "Patrick Mahomes",
         "Jahmyr Gibbs",
         "Bucky Irving",
-        "J.K. Dobbins",
         "Christian Watson",
-        "Rashee Rice",
         "DJ Moore",
+        "Rashee Rice",
+        "Keenan Allen",
         "Trey McBride",
-        "New England Patriots"
+        "Kansas City Chiefs"
       ],
       "bench": [
         "Rachaad White",
-        "Chris Brooks",
+        "J.K. Dobbins",
+        "Najee Harris",
         "Adonai Mitchell",
-        "Keenan Allen",
         "Michael Pittman",
         "Jake Ferguson",
-        "Kansas City Chiefs"
+        "New England Patriots"
       ],
       "ir": [
         "Isiah Pacheco"
@@ -251,7 +252,7 @@
         "Alvin Kamara",
         "CeeDee Lamb",
         "DeVonta Smith",
-        "Chris Godwin",
+        "Roman Wilson",
         "Isaiah Likely",
         "Colston Loveland",
         "Seattle Seahawks"
@@ -261,7 +262,7 @@
         "Ollie Gordon",
         "Emmett Johnson",
         "Rico Dowdle",
-        "Emanuel Wilson",
+        "Chris Godwin",
         "Malik Washington",
         "Makai Lemon"
       ],
@@ -297,96 +298,157 @@
   },
   "changes": [
     {
+      "team": "Touchdown Syndrome",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Isaiah Davis",
+        "DK Metcalf",
+        "Nico Collins",
+        "Jakobi Meyers",
+        "Houston Texans"
+      ],
+      "benched": [
+        "Travis Etienne",
+        "Xavier Worthy",
+        "Kyle Pitts",
+        "T.J. Hockenson",
+        "Carolina Panthers"
+      ],
+      "note": "Five Week 4 starting slots changed."
+    },
+    {
+      "team": "Touchdown Syndrome",
+      "type": "add_drop",
+      "starterImpact": true,
+      "added": [
+        "Isaiah Davis"
+      ],
+      "dropped": [
+        "Jayden Reed"
+      ],
+      "note": "Isaiah Davis was added and entered the starting lineup."
+    },
+    {
+      "team": "kevin's Top-Notch Team",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Puka Nacua"
+      ],
+      "benched": [
+        "Jalen Coker"
+      ],
+      "note": "Week 4 wide receiver lineup changed."
+    },
+    {
       "team": "Dirty Money",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Kenyon Sadiq",
-        "Darren Waller",
-        "Chicago Bears"
+        "Rome Odunze"
       ],
       "benched": [
-        "Dontayvion Wicks",
-        "Dalton Schultz"
+        "Jadarian Price"
       ],
-      "removedStarter": [
-        "San Francisco 49ers"
-      ],
-      "note": "Starting flex, tight end, and defense changed."
+      "note": "Week 4 flex lineup changed."
     },
     {
       "team": "Dirty Money",
-      "type": "add_drop",
-      "starterImpact": true,
-      "added": [
-        "Kenyon Sadiq",
-        "Darren Waller",
-        "Chicago Bears",
-        "Kendre Miller",
-        "Ja'Kobi Lane"
-      ],
-      "dropped": [
-        "San Francisco 49ers"
-      ],
-      "note": "Five players were added, with Ja'Kobi Lane placed on IR."
-    },
-    {
-      "team": "Mandys Magic",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Alvin Kamara",
-        "Colston Loveland"
-      ],
-      "benched": [
-        "Emmett Johnson"
-      ],
-      "removedStarter": [
-        "De'Von Achane"
-      ],
-      "note": "Two starting flex spots changed."
-    },
-    {
-      "team": "Mandys Magic",
-      "type": "add_drop",
-      "starterImpact": true,
-      "added": [
-        "Sam Darnold",
-        "Ollie Gordon"
-      ],
-      "dropped": [
-        "Baker Mayfield",
-        "De'Von Achane"
-      ],
-      "note": "Quarterback and running back ownership changed."
-    },
-    {
-      "team": "Team Welch",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Blake Corum",
-        "Juwan Johnson"
-      ],
-      "benched": [
-        "Breece Hall",
-        "Sam LaPorta"
-      ],
-      "note": "Starting running back and tight end changed."
-    },
-    {
-      "team": "Team Welch",
       "type": "add_drop",
       "starterImpact": false,
       "added": [
-        "Geno Smith",
-        "Kalif Raymond"
-      ],
-      "dropped": [
-        "Malik Willis",
         "Quentin Johnston"
       ],
-      "note": "Two bench ownership changes were made."
+      "dropped": [
+        "Dalton Schultz"
+      ],
+      "note": "Bench ownership changed."
+    },
+    {
+      "team": "Sues canyon",
+      "type": "ir",
+      "starterImpact": false,
+      "movedToIr": [
+        "Jalen McMillan"
+      ],
+      "note": "Jalen McMillan moved from the bench to IR."
+    },
+    {
+      "team": "Lord Reverend's Fun-gis",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Stefon Diggs"
+      ],
+      "benched": [
+        "Courtland Sutton"
+      ],
+      "note": "Week 4 wide receiver lineup changed."
+    },
+    {
+      "team": "Lord Reverend's Fun-gis",
+      "type": "add_drop",
+      "starterImpact": false,
+      "added": [
+        "Jaylen Wright",
+        "Buffalo Bills"
+      ],
+      "dropped": [
+        "Antonio Williams",
+        "Evan Engram"
+      ],
+      "note": "Two ownership changes were made."
+    },
+    {
+      "team": "GRIZZLY ADAMZ",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Keenan Allen",
+        "Kansas City Chiefs"
+      ],
+      "benched": [
+        "J.K. Dobbins",
+        "New England Patriots"
+      ],
+      "note": "Week 4 flex and defense lineup changed."
+    },
+    {
+      "team": "GRIZZLY ADAMZ",
+      "type": "add_drop",
+      "starterImpact": false,
+      "added": [
+        "Najee Harris"
+      ],
+      "dropped": [
+        "Chris Brooks"
+      ],
+      "note": "Bench running back ownership changed."
+    },
+    {
+      "team": "Mandys Magic",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Roman Wilson"
+      ],
+      "benched": [
+        "Chris Godwin"
+      ],
+      "note": "Week 4 wide receiver lineup changed."
+    },
+    {
+      "team": "Mandys Magic",
+      "type": "add_drop",
+      "starterImpact": true,
+      "added": [
+        "Roman Wilson"
+      ],
+      "dropped": [
+        "Emanuel Wilson"
+      ],
+      "note": "Roman Wilson was added and entered the starting lineup."
     }
   ]
 }
