@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-10-02T18:58:07-06:00",
+  "syncedAt": "2026-10-03T19:03:21-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -43,11 +43,11 @@
         "Kenny Gainwell",
         "Jalen Coker",
         "Carnell Tate",
-        "Keon Coleman",
-        "Terrance Ferguson"
+        "Keon Coleman"
       ],
       "ir": [
-        "Tank Dell"
+        "Tank Dell",
+        "Terrance Ferguson"
       ]
     },
     "Mang The Stallion": {
@@ -57,8 +57,8 @@
         "Bhayshul Tuten",
         "Omarion Hampton",
         "Tony Pollard",
-        "Tetairoa McMillan",
         "Luther Burden",
+        "Tetairoa McMillan",
         "Tucker Kraft",
         "Cincinnati Bengals"
       ],
@@ -89,8 +89,8 @@
       "bench": [
         "Jordan Love",
         "Jadarian Price",
-        "Mike Washington",
         "Kendre Miller",
+        "Mike Washington",
         "Dontayvion Wicks",
         "Quentin Johnston",
         "Tyreek Hill"
@@ -116,8 +116,8 @@
         "Tyjae Spears",
         "Justice Hill",
         "Michael Wilson",
-        "Jordan Addison",
-        "Tre Tucker"
+        "Tre Tucker",
+        "Jordan Addison"
       ],
       "ir": [
         "Jalen McMillan"
@@ -162,8 +162,8 @@
       ],
       "bench": [
         "Kyle Monangai",
-        "George Holani",
         "Jaylen Wright",
+        "George Holani",
         "Courtland Sutton",
         "Khalil Shakir",
         "Cooper Kupp",
@@ -186,23 +186,22 @@
       "bench": [
         "Justin Herbert",
         "Tank Bigsby",
+        "Zach Charbonnet",
         "Romeo Doubs",
-        "Jalen Nailor",
         "Calvin Ridley",
+        "Jalen Nailor",
         "Greg Dulcich"
       ],
-      "ir": [
-        "Zach Charbonnet"
-      ]
+      "ir": []
     },
     "Stafford Infection": {
       "starters": [
         "Josh Allen",
         "James Cook",
         "Tyler Allgeier",
+        "Devaughn Vele",
         "Ladd McConkey",
         "Terry McLaurin",
-        "Devaughn Vele",
         "Rashid Shaheed",
         "George Kittle",
         "Philadelphia Eagles"
@@ -225,18 +224,18 @@
         "Patrick Mahomes",
         "Jahmyr Gibbs",
         "Bucky Irving",
+        "J.K. Dobbins",
         "Christian Watson",
         "DJ Moore",
         "Rashee Rice",
-        "Keenan Allen",
         "Trey McBride",
         "Kansas City Chiefs"
       ],
       "bench": [
         "Rachaad White",
-        "J.K. Dobbins",
         "Najee Harris",
         "Adonai Mitchell",
+        "Keenan Allen",
         "Michael Pittman",
         "Jake Ferguson",
         "New England Patriots"
@@ -259,9 +258,9 @@
       ],
       "bench": [
         "Sam Darnold",
+        "Rico Dowdle",
         "Ollie Gordon",
         "Emmett Johnson",
-        "Rico Dowdle",
         "DeVonta Smith",
         "Chris Godwin",
         "Malik Washington"
@@ -274,7 +273,7 @@
       "starters": [
         "Trevor Lawrence",
         "Javonte Williams",
-        "Blake Corum",
+        "Emanuel Wilson",
         "Chris Olave",
         "Ja'Marr Chase",
         "Parker Washington",
@@ -285,7 +284,7 @@
       "bench": [
         "Geno Smith",
         "Breece Hall",
-        "Chris Rodriguez",
+        "Blake Corum",
         "Kaelon Black",
         "Josh Downs",
         "Kalif Raymond",
@@ -298,28 +297,52 @@
   },
   "changes": [
     {
-      "team": "Lord Reverend's Fun-gis",
+      "team": "kevin's Top-Notch Team",
+      "type": "ir",
+      "starterImpact": false,
+      "movedToIR": [
+        "Terrance Ferguson"
+      ],
+      "note": "Terrance Ferguson moved from the bench to IR."
+    },
+    {
+      "team": "Modern Strife",
+      "type": "ir",
+      "starterImpact": false,
+      "activated": [
+        "Zach Charbonnet"
+      ],
+      "note": "Zach Charbonnet moved from IR to the bench."
+    },
+    {
+      "team": "GRIZZLY ADAMZ",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Braelon Allen"
+        "J.K. Dobbins"
       ],
       "benched": [
-        "Kyle Monangai"
+        "Keenan Allen"
       ],
       "note": "Week 4 flex lineup changed."
     },
     {
-      "team": "Mandys Magic",
-      "type": "lineup",
+      "team": "Team Welch",
+      "type": "roster-and-lineup",
       "starterImpact": true,
+      "added": [
+        "Emanuel Wilson"
+      ],
+      "dropped": [
+        "Chris Rodriguez"
+      ],
       "started": [
-        "Makai Lemon"
+        "Emanuel Wilson"
       ],
       "benched": [
-        "DeVonta Smith"
+        "Blake Corum"
       ],
-      "note": "Week 4 wide receiver lineup changed."
+      "note": "Emanuel Wilson was added and started; Blake Corum moved to the bench."
     }
   ]
 }
