@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-10-03T19:03:21-06:00",
+  "syncedAt": "2026-10-04T18:56:09-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -57,8 +57,8 @@
         "Bhayshul Tuten",
         "Omarion Hampton",
         "Tony Pollard",
-        "Luther Burden",
         "Tetairoa McMillan",
+        "Luther Burden",
         "Tucker Kraft",
         "Cincinnati Bengals"
       ],
@@ -88,14 +88,14 @@
       ],
       "bench": [
         "Jordan Love",
-        "Jadarian Price",
-        "Kendre Miller",
         "Mike Washington",
+        "Chris Rodriguez",
+        "Kendre Miller",
         "Dontayvion Wicks",
-        "Quentin Johnston",
-        "Tyreek Hill"
+        "Quentin Johnston"
       ],
       "ir": [
+        "Jadarian Price",
         "Ja'Kobi Lane"
       ]
     },
@@ -106,8 +106,8 @@
         "Ashton Jeanty",
         "Aaron Jones",
         "Quinshon Judkins",
-        "Garrett Wilson",
         "Drake London",
+        "Garrett Wilson",
         "Harold Fannin",
         "Cleveland Browns"
       ],
@@ -116,8 +116,8 @@
         "Tyjae Spears",
         "Justice Hill",
         "Michael Wilson",
-        "Tre Tucker",
-        "Jordan Addison"
+        "Jordan Addison",
+        "Tre Tucker"
       ],
       "ir": [
         "Jalen McMillan"
@@ -162,8 +162,8 @@
       ],
       "bench": [
         "Kyle Monangai",
-        "Jaylen Wright",
         "George Holani",
+        "Jaylen Wright",
         "Courtland Sutton",
         "Khalil Shakir",
         "Cooper Kupp",
@@ -177,8 +177,8 @@
         "D'Andre Swift",
         "Jaylen Warren",
         "Amon-Ra St. Brown",
-        "Justin Jefferson",
         "Jaylen Waddle",
+        "Romeo Doubs",
         "KC Concepcion",
         "Travis Kelce",
         "Detroit Lions"
@@ -187,9 +187,9 @@
         "Justin Herbert",
         "Tank Bigsby",
         "Zach Charbonnet",
-        "Romeo Doubs",
-        "Calvin Ridley",
+        "Justin Jefferson",
         "Jalen Nailor",
+        "Calvin Ridley",
         "Greg Dulcich"
       ],
       "ir": []
@@ -201,7 +201,7 @@
         "Tyler Allgeier",
         "Devaughn Vele",
         "Ladd McConkey",
-        "Terry McLaurin",
+        "Rashod Bateman",
         "Rashid Shaheed",
         "George Kittle",
         "Philadelphia Eagles"
@@ -209,13 +209,13 @@
       "bench": [
         "Matthew Stafford",
         "Josh Jacobs",
-        "Rashod Bateman",
+        "Terry McLaurin",
+        "Mack Hollins",
         "Kayshon Boutte",
         "Dallas Goedert",
         "Denver Broncos"
       ],
       "ir": [
-        "Jonah Coleman",
         "Alec Pierce"
       ]
     },
@@ -262,8 +262,8 @@
         "Ollie Gordon",
         "Emmett Johnson",
         "DeVonta Smith",
-        "Chris Godwin",
-        "Malik Washington"
+        "Malik Washington",
+        "Chris Godwin"
       ],
       "ir": [
         "Jordan Mason"
@@ -277,7 +277,7 @@
         "Chris Olave",
         "Ja'Marr Chase",
         "Parker Washington",
-        "Tee Higgins",
+        "Josh Downs",
         "Juwan Johnson",
         "Minnesota Vikings"
       ],
@@ -286,7 +286,7 @@
         "Breece Hall",
         "Blake Corum",
         "Kaelon Black",
-        "Josh Downs",
+        "Tee Higgins",
         "Kalif Raymond",
         "Sam LaPorta"
       ],
@@ -297,52 +297,61 @@
   },
   "changes": [
     {
-      "team": "kevin's Top-Notch Team",
-      "type": "ir",
+      "team": "Dirty Money",
+      "type": "roster-and-ir",
       "starterImpact": false,
-      "movedToIR": [
-        "Terrance Ferguson"
+      "added": [
+        "Chris Rodriguez"
       ],
-      "note": "Terrance Ferguson moved from the bench to IR."
+      "dropped": [
+        "Tyreek Hill"
+      ],
+      "movedToIR": [
+        "Jadarian Price"
+      ],
+      "note": "Chris Rodriguez was added, Tyreek Hill was dropped, and Jadarian Price moved to IR."
     },
     {
       "team": "Modern Strife",
-      "type": "ir",
-      "starterImpact": false,
-      "activated": [
-        "Zach Charbonnet"
-      ],
-      "note": "Zach Charbonnet moved from IR to the bench."
-    },
-    {
-      "team": "GRIZZLY ADAMZ",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "J.K. Dobbins"
+        "Romeo Doubs"
       ],
       "benched": [
-        "Keenan Allen"
+        "Justin Jefferson"
       ],
-      "note": "Week 4 flex lineup changed."
+      "note": "Week 4 wide receiver lineup changed."
     },
     {
-      "team": "Team Welch",
+      "team": "Stafford Infection",
       "type": "roster-and-lineup",
       "starterImpact": true,
       "added": [
-        "Emanuel Wilson"
+        "Mack Hollins"
       ],
       "dropped": [
-        "Chris Rodriguez"
+        "Jonah Coleman"
       ],
       "started": [
-        "Emanuel Wilson"
+        "Rashod Bateman"
       ],
       "benched": [
-        "Blake Corum"
+        "Terry McLaurin"
       ],
-      "note": "Emanuel Wilson was added and started; Blake Corum moved to the bench."
+      "note": "Mack Hollins was added, Jonah Coleman was dropped from IR, and the Week 4 receiver lineup changed."
+    },
+    {
+      "team": "Team Welch",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Josh Downs"
+      ],
+      "benched": [
+        "Tee Higgins"
+      ],
+      "note": "Week 4 wide receiver lineup changed."
     }
   ]
 }
