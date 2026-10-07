@@ -1,6 +1,6 @@
 {
   "league": "The Boys are Back",
-  "syncedAt": "2026-10-04T18:56:09-06:00",
+  "syncedAt": "2026-10-06T19:02:55-06:00",
   "teams": {
     "Touchdown Syndrome": {
       "starters": [
@@ -16,29 +16,29 @@
       ],
       "bench": [
         "Bo Nix",
-        "Xavier Worthy",
         "T.J. Hockenson",
         "Kyle Pitts",
-        "Carolina Panthers",
         "Brian Robinson",
-        "Travis Etienne"
+        "Travis Etienne",
+        "Xavier Worthy",
+        "Carolina Panthers"
       ],
       "ir": []
     },
     "kevin's Top-Notch Team": {
       "starters": [
-        "Bryce Young",
-        "TreVeyon Henderson",
+        "Drake Maye",
         "RJ Harvey",
+        "TreVeyon Henderson",
         "Puka Nacua",
         "Deebo Samuel",
-        "Emeka Egbuka",
         "Jameson Williams",
+        "Emeka Egbuka",
         "Brock Bowers",
         "Baltimore Ravens"
       ],
       "bench": [
-        "Drake Maye",
+        "Bryce Young",
         "Keaton Mitchell",
         "Kenny Gainwell",
         "Jalen Coker",
@@ -77,22 +77,22 @@
     "Dirty Money": {
       "starters": [
         "Tyler Shough",
-        "Kenneth Walker",
         "Chase Brown",
-        "George Pickens",
+        "Chris Rodriguez",
         "Malik Nabers",
+        "George Pickens",
         "Rome Odunze",
+        "Quentin Johnston",
         "Kenyon Sadiq",
-        "Darren Waller",
         "Chicago Bears"
       ],
       "bench": [
         "Jordan Love",
-        "Mike Washington",
-        "Chris Rodriguez",
+        "Kenneth Walker",
         "Kendre Miller",
+        "Mike Washington",
         "Dontayvion Wicks",
-        "Quentin Johnston"
+        "Darren Waller"
       ],
       "ir": [
         "Jadarian Price",
@@ -104,10 +104,10 @@
         "Jayden Daniels",
         "Jonathan Taylor",
         "Ashton Jeanty",
-        "Aaron Jones",
         "Quinshon Judkins",
-        "Drake London",
+        "Aaron Jones",
         "Garrett Wilson",
+        "Drake London",
         "Harold Fannin",
         "Cleveland Browns"
       ],
@@ -164,8 +164,8 @@
         "Kyle Monangai",
         "George Holani",
         "Jaylen Wright",
-        "Courtland Sutton",
         "Khalil Shakir",
+        "Courtland Sutton",
         "Cooper Kupp",
         "Buffalo Bills"
       ],
@@ -177,8 +177,8 @@
         "D'Andre Swift",
         "Jaylen Warren",
         "Amon-Ra St. Brown",
-        "Jaylen Waddle",
         "Romeo Doubs",
+        "Jaylen Waddle",
         "KC Concepcion",
         "Travis Kelce",
         "Detroit Lions"
@@ -188,8 +188,8 @@
         "Tank Bigsby",
         "Zach Charbonnet",
         "Justin Jefferson",
-        "Jalen Nailor",
         "Calvin Ridley",
+        "Jalen Nailor",
         "Greg Dulcich"
       ],
       "ir": []
@@ -199,8 +199,8 @@
         "Josh Allen",
         "James Cook",
         "Tyler Allgeier",
-        "Devaughn Vele",
         "Ladd McConkey",
+        "Devaughn Vele",
         "Rashod Bateman",
         "Rashid Shaheed",
         "George Kittle",
@@ -226,8 +226,8 @@
         "Bucky Irving",
         "J.K. Dobbins",
         "Christian Watson",
-        "DJ Moore",
         "Rashee Rice",
+        "DJ Moore",
         "Trey McBride",
         "Kansas City Chiefs"
       ],
@@ -258,8 +258,8 @@
       ],
       "bench": [
         "Sam Darnold",
-        "Rico Dowdle",
         "Ollie Gordon",
+        "Rico Dowdle",
         "Emmett Johnson",
         "DeVonta Smith",
         "Malik Washington",
@@ -276,8 +276,8 @@
         "Emanuel Wilson",
         "Chris Olave",
         "Ja'Marr Chase",
-        "Parker Washington",
         "Josh Downs",
+        "Parker Washington",
         "Juwan Johnson",
         "Minnesota Vikings"
       ],
@@ -297,61 +297,30 @@
   },
   "changes": [
     {
+      "team": "kevin's Top-Notch Team",
+      "type": "lineup",
+      "starterImpact": true,
+      "started": [
+        "Drake Maye"
+      ],
+      "benched": [
+        "Bryce Young"
+      ],
+      "note": "Week 5 quarterback lineup changed."
+    },
+    {
       "team": "Dirty Money",
-      "type": "roster-and-ir",
-      "starterImpact": false,
-      "added": [
-        "Chris Rodriguez"
-      ],
-      "dropped": [
-        "Tyreek Hill"
-      ],
-      "movedToIR": [
-        "Jadarian Price"
-      ],
-      "note": "Chris Rodriguez was added, Tyreek Hill was dropped, and Jadarian Price moved to IR."
-    },
-    {
-      "team": "Modern Strife",
       "type": "lineup",
       "starterImpact": true,
       "started": [
-        "Romeo Doubs"
+        "Chris Rodriguez",
+        "Quentin Johnston"
       ],
       "benched": [
-        "Justin Jefferson"
+        "Kenneth Walker",
+        "Darren Waller"
       ],
-      "note": "Week 4 wide receiver lineup changed."
-    },
-    {
-      "team": "Stafford Infection",
-      "type": "roster-and-lineup",
-      "starterImpact": true,
-      "added": [
-        "Mack Hollins"
-      ],
-      "dropped": [
-        "Jonah Coleman"
-      ],
-      "started": [
-        "Rashod Bateman"
-      ],
-      "benched": [
-        "Terry McLaurin"
-      ],
-      "note": "Mack Hollins was added, Jonah Coleman was dropped from IR, and the Week 4 receiver lineup changed."
-    },
-    {
-      "team": "Team Welch",
-      "type": "lineup",
-      "starterImpact": true,
-      "started": [
-        "Josh Downs"
-      ],
-      "benched": [
-        "Tee Higgins"
-      ],
-      "note": "Week 4 wide receiver lineup changed."
+      "note": "Week 5 flex lineup changed."
     }
   ]
 }
